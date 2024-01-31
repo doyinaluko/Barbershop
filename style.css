@@ -126,6 +126,7 @@ body {
 
 .footer p{
     text-align: center;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 48rem) and (max-width: 68.75rem) {
