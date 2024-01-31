@@ -107,6 +107,7 @@ body {
     grid-area: footer;
     margin-top: auto;
     background-color: black;
+    color: white;
 }
 
 .footer ul {
@@ -121,6 +122,10 @@ body {
 .footer ul a {
     text-decoration: none;
     color: #fff;
+}
+
+.footer p{
+    text-align: center;
 }
 
 @media screen and (min-width: 48rem) and (max-width: 68.75rem) {
