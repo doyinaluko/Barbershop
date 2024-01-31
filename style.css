@@ -60,17 +60,47 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     background: url("images/image1.png") center /cover no-repeat border-box,
-    linear-gradient( to top, 
-    #000000aa 10%, transparent);
+        linear-gradient(to top,
+            #000000aa 10%, transparent);
     color: #fff;
-    font-size: 1.5rem;
-    line-height: 0.5;
+    font-size: 2rem;
+    line-height: 1.2;
+    width: 100%;
     /* margin-top: 3rem; */
 }
 
-.green-header{
+.cta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.green-header {
     color: #2DDF5C;
     font-size: 3.5rem;
+}
+
+.intro-text {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.button-box{
+    justify-content: center;
+}
+
+.cta button {
+    background-color: #2DDF5C;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 0 0 25% 0;
+}
+
+.cta button a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.1rem;
 }
 
 .footer {
@@ -79,15 +109,16 @@ body {
     background-color: black;
 }
 
-.footer ul{
+.footer ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
     list-style: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
-.footer ul a{
+.footer ul a {
     text-decoration: none;
     color: #fff;
 }
