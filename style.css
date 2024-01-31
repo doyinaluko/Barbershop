@@ -59,12 +59,12 @@ body {
     background-position: center 50%;
     background-repeat: no-repeat;
     background-size: cover; */
-    background: url("images/image1.png") center /cover no-repeat border-box,
+    background: url("images/cover-2.jpg") center /cover no-repeat border-box,
         linear-gradient(to top,
-            #000000aa 10%, transparent);
-    color: #fff;
+            #00000062 10%, transparent);
     font-size: 2rem;
     line-height: 1.2;
+    color: #fff;
     width: 100%;
     /* margin-top: 3rem; */
 }
@@ -73,6 +73,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.hero h1{
+    color: #2DDF5C;
 }
 
 .green-header {
