@@ -75,12 +75,16 @@ body {
     width: 100%;
 }
 
+.hero .section-text{}
+
 .hero h1{
-    color: #2DDF5C;
+    color: #ffff00dd;
+    
 }
 
 .green-header {
-    color: #2DDF5C;
+    color: #ffff00dd;
+
     font-size: 3.5rem;
 }
 
