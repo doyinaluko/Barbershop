@@ -49,6 +49,7 @@ body {
 
 .main-area {
     grid-area: main;
+    background-color: #000;
 }
 
 .hero {
