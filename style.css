@@ -4,10 +4,12 @@
 
 section {
     padding: 1rem;
+    width: 100%;
 }
 
 body {
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .wrapper {
@@ -79,10 +81,7 @@ body {
     width: 100%;
 }
 
-.hero h1{
-    color: #fff;
-    
-}
+
 
 .green-header {
     color: #fff;
@@ -113,6 +112,11 @@ body {
     font-size: 1.1rem;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 hr{
     height: 5px;
     background-color: #fff;
@@ -121,6 +125,44 @@ hr{
 
 .section-header{
     text-align: center;
+}
+
+.services{
+    text-align: center;
+}
+
+.services .service{
+    margin-top: 3rem;
+}
+
+.section-image{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+}
+
+.section-image img{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+}
+
+.section-info p{
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.service button{
+    background-color: #2DDF5C;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 0 0 25% 0;   
+}
+
+.service button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
 }
 
 .footer {
