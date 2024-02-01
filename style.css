@@ -13,6 +13,7 @@ body {
 .wrapper {
     margin: 0;
     font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
     display: grid;
     grid-template-rows: 4rem auto fit-content(8rem);
     grid-template-areas:
@@ -50,6 +51,7 @@ body {
 .main-area {
     grid-area: main;
     background-color: #000;
+    color: #fff;
 }
 
 .hero {
@@ -76,8 +78,6 @@ body {
     flex-direction: column;
     width: 100%;
 }
-
-.hero .section-text{}
 
 .hero h1{
     color: #fff;
@@ -107,10 +107,20 @@ body {
 }
 
 .cta button a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.1rem;
+}
+
+hr{
+    height: 5px;
+    background-color: #fff;
+    width: 70%;
+}
+
+.section-header{
+    text-align: center;
 }
 
 .footer {
