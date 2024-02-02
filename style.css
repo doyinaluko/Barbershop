@@ -128,14 +128,17 @@ hr{
 
 .section-header{
     text-align: center;
+    text-transform: capitalize;
 }
 
 .services{
     text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2rem;
 }
 
 .services .service{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .section-image{
@@ -167,6 +170,16 @@ hr{
     color: black;
     font-size: 1rem;
 }
+
+.barbers{
+    text-align: center;
+}
+
+.barber-name{
+    margin-top: 4rem;
+    text-transform: capitalize;
+}
+
 
 
 .footer {
