@@ -25,12 +25,14 @@ section {
     min-height: 20.5rem;
     max-height: 20.625rem;
     height: 34.375rem;
+    width: 100%;
 }
 
 .section-image img{
     min-height: 20.5rem;
     max-height: 20.625rem;
     height: 34.375rem;
+    width: inherit;
 }
 
 .section-info p{
@@ -153,11 +155,13 @@ hr{
     flex-direction: column;
 }
 
-
-
 .services{
     text-align: center;
     text-transform: capitalize;
+}
+
+.services p{
+    text-align: left;
 }
 
 .service button{
@@ -177,6 +181,10 @@ hr{
 .testimonies-box{
     text-align: center;
     text-transform: capitalize;
+}
+
+.testimonies p{
+    text-align: left;
 }
 
 
