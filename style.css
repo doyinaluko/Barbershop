@@ -49,6 +49,20 @@ hr{
     background-color: #fff;
 }
 
+.carousel-item{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+    width: 100%;  
+}
+
+.carousel-item img{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+    width: inherit;
+}
+
 
 .wrapper {
     margin: 0;
