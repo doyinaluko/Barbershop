@@ -12,6 +12,39 @@ body {
 section {
     padding: 1rem;
     width: 100%;
+    margin-top: 5rem;
+}
+
+.section-header{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.section-image{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+}
+
+.section-image img{
+    min-height: 20.5rem;
+    max-height: 20.625rem;
+    height: 34.375rem;
+}
+
+.section-info p{
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.section-item{
+    margin-top: 4.5rem;
+}
+
+hr{
+    height: 10px;
+    background-color: #fff;
 }
 
 
@@ -120,42 +153,11 @@ section {
     flex-direction: column;
 }
 
-hr{
-    height: 5px;
-    background-color: #fff;
-    width: 70%;
-}
 
-.section-header{
-    text-align: center;
-    text-transform: capitalize;
-}
 
 .services{
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.2rem;
-}
-
-.services .service{
-    margin-top: 4rem;
-}
-
-.section-image{
-    min-height: 20.5rem;
-    max-height: 20.625rem;
-    height: 34.375rem;
-}
-
-.section-image img{
-    min-height: 20.5rem;
-    max-height: 20.625rem;
-    height: 34.375rem;
-}
-
-.section-info p{
-    text-transform: capitalize;
-    text-align: left;
 }
 
 .service button{
@@ -171,6 +173,17 @@ hr{
     font-size: 1rem;
 }
 
+/* TESTIMONIES  */
+.testimonies-box{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+/* END OF TESTIMONIES  */
+
+
 .barbers{
     text-align: center;
 }
@@ -179,8 +192,6 @@ hr{
     margin-top: 4rem;
     text-transform: capitalize;
 }
-
-
 
 .footer {
     grid-area: footer;
@@ -207,6 +218,7 @@ hr{
     text-align: center;
     font-size: 0.8rem;
 }
+
 
 @media screen and (min-width: 48rem) and (max-width: 68.75rem) {
     navbar {
