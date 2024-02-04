@@ -201,8 +201,6 @@ hr{
     text-align: left;
 }
 
-
-
 /* END OF TESTIMONIES  */
 
 
@@ -215,6 +213,36 @@ hr{
     text-transform: capitalize;
 }
 
+/* CONTACT SECTION  */
+.contact-box{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2DDF5C;
+    height: 20rem;
+    border-radius: 50%;
+    top: -10rem;
+}
+
+.half-circle{
+    height: 10rem;
+    top: -10rem;
+    background-color: black;
+}
+
+.contact-box .cta-button{
+    color: #fff;
+}
+
+.contact-box .cta-button button{
+    background-color: #000;
+}
+
+.contact-box button a{
+    color: #fff;
+}
+/* END OF CONTACT SECTION  */
+
+/* FOOTER  */
 .footer {
     grid-area: footer;
     margin-top: auto;
@@ -240,6 +268,7 @@ hr{
     text-align: center;
     font-size: 0.8rem;
 }
+/* END OF FOOTER SECTION  */
 
 
 @media screen and (min-width: 48rem) and (max-width: 68.75rem) {
