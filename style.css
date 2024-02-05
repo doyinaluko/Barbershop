@@ -35,6 +35,11 @@ section {
     max-width: 100%;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .section-info p{
     text-transform: capitalize;
     text-align: left;
@@ -116,20 +121,23 @@ hr{
 .cta {
     display: flex;
     flex-direction: column;
+    margin-top: 10rem;
+    justify-content: center;
     width: 100%;
 }
 
 
 
 .green-header {
-    color: #fff;
-
+    color: #2DDF5C;
     font-size: 3.5rem;
 }
 
 .intro-text {
     text-transform: capitalize;
     font-size: 1.3rem;
+    line-height: 1.5;
+    margin-left: 2rem;
 }
 
 .button-box{
@@ -141,6 +149,7 @@ hr{
     padding: 1rem;
     width: 50%;
     border-radius: 0 0 25% 0;
+    margin-left: 2rem;
 }
 
 .cta button a {
@@ -148,11 +157,6 @@ hr{
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.1rem;
-}
-
-.flex-column{
-    display: flex;
-    flex-direction: column;
 }
 
 .services{
