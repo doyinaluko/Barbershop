@@ -22,15 +22,15 @@ section {
 
 
 .section-image{
-    min-height: 20.5rem;
-    max-height: 20.625rem;
+    /* min-height: 20.5rem;
+    max-height: 20.625rem; */
     height: auto;
     max-width: 100%;
 }
 
 .section-image img{
-    min-height: 20.5rem;
-    max-height: 20.625rem;
+    /* min-height: 20.5rem;
+    max-height: 20.625rem; */
     height: auto;
     max-width: 100%;
 }
