@@ -24,15 +24,15 @@ section {
 .section-image{
     min-height: 20.5rem;
     max-height: 20.625rem;
-    height: 34.375rem;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 .section-image img{
     min-height: 20.5rem;
     max-height: 20.625rem;
-    height: 34.375rem;
-    width: inherit;
+    height: auto;
+    max-width: 100%;
 }
 
 .section-info p{
@@ -47,20 +47,6 @@ section {
 hr{
     height: 10px;
     background-color: #fff;
-}
-
-.carousel-item{
-    min-height: 20.5rem;
-    max-height: 21rem;
-    height: 34.375rem;
-    width: 100%;  
-}
-
-.carousel-item img{
-    min-height: 20.5rem;
-    max-height: 21rem;
-    height: 34.375rem;
-    width: inherit;
 }
 
 
