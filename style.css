@@ -77,7 +77,7 @@ hr{
     align-items: center;
     position: fixed;
     background-color: #727070f3;
-    box-shadow: 0 0 0 3px rgba(33, 26, 26, 0.5);
+    box-shadow: 0 0 0 5px rgba(139, 126, 126, 0.5);
     width: 100%;
     z-index: 1;
     height: 3.5rem;
