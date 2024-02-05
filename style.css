@@ -260,8 +260,8 @@ hr{
 /* END OF FOOTER SECTION  */
 
 
-@media screen and (min-width: 48rem) and (max-width: 68.75rem) {
-    navbar {
+@media (min-width: 48rem){
+    .mobile-nav{
         display: none;
     }
 }
