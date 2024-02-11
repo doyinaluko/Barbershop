@@ -355,6 +355,7 @@ hr{
     
     .desktop-services .section-image img{
         transform: rotate(357deg);
+        border-radius: 1rem;
     }
 
     .large-screen{
@@ -412,11 +413,13 @@ hr{
     .testimony .section-image{
         max-width: 100%;
         height: auto;
+        border-radius: 1rem;
     }
 
     .testimony .section-image img{
-        height: 43.75rem;
+        height: 75vh;
         width: 100%;
+        border-radius: 1rem;
     }
 
     .barbers{
@@ -432,12 +435,14 @@ hr{
 
     .barbers .section-image{
         max-width: 100%;
+        border-radius: 1rem;
         /* height: 500px; */
     }
 
     .barbers .section-image img{
-        height: 43.75rem;
+        height: 60vh;
         width: 100%;
+        border-radius: 1rem;
     }
 
  
