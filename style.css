@@ -444,6 +444,8 @@ hr{
         width: 100%;
         border-radius: 1rem;
     }
-
+    .our-team .section-info{
+        font-size: 1.3rem;
+    }
  
 }
