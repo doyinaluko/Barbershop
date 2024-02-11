@@ -353,7 +353,7 @@ hr{
     }
 
     
-    .desktop-services .section-image{
+    .desktop-services .section-image img{
         transform: rotate(357deg);
     }
 
@@ -396,6 +396,48 @@ hr{
         width: 40%;
         padding: 2rem;
 
+    }
+
+    .testimonies-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimony{
+        width: 50%;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .testimony .section-image{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .testimony .section-image img{
+        height: 43.75rem;
+        width: 100%;
+    }
+
+    .barbers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .barber{
+        width: 50%;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .barbers .section-image{
+        max-width: 100%;
+        /* height: 500px; */
+    }
+
+    .barbers .section-image img{
+        height: 43.75rem;
+        width: 100%;
     }
 
  
