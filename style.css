@@ -343,6 +343,63 @@ hr{
     }
 
     /* THE SECTIONS  */
+    .section{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .hero{
+        display: block;
+        align-items: center;
+        min-height: 33rem;
+        /* background-image: url(images/image1.png);
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background: url("images/cover-2.jpg") center /cover no-repeat border-box,
+            linear-gradient(to top,
+                #00000062 10%, transparent);
+        color: #fff;
+        line-break: 1.5;
+    }
+
+    .hero .cta{
+        width: 20%;
+        padding: 1rem;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .hero .cta button, .hero .intro-text{
+        margin-left: 0;
+    }
+
+    .hero .green-header{
+        color: white;
+        font-size: 192px;
+        display: block;
+    }
+
+    .hero .big{
+        display: block;
+        color: #2DDF5C;
+        font-size: 96px;
+        text-align: right;
+        margin-right: 160px;
+        margin-top: -96px;
+    }
+
+    .hero .home{
+        display: block;
+        font-size: 50px;
+    }
+
+    .hero .barbing{
+        display: block;
+        font-size: 80px;
+    }
+
+
     .about .section-text p{
         text-align: center;
     }
@@ -350,6 +407,10 @@ hr{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .desktop-services .section-image{
+        outline: 1px solid white;
     }
 
     
@@ -446,6 +507,32 @@ hr{
     }
     .our-team .section-info{
         font-size: 1.3rem;
+    }
+
+    .previous-works .carousel-item{
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        padding: 15% 25%;
+        border-radius: 10px;
+    }
+    .previous-works img{
+        height: 80vh;
+        border-radius: 10px;
+    }
+
+    .cta{
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+        outline: 1px solid white;
+        border-radius: 10px;
+        margin: 5px auto;
+    }
+
+    .cta .contact-box{
+        width: 50%;
+        margin: 0 auto 1rem;
     }
  
 }
